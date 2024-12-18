@@ -9,14 +9,35 @@
   .hero-text {
     display: flex;
     flex-direction: column;
-    width: 55%;
-    justify-content: center;
+    width: 50%;
     margin-left: 2vw;
     text-align: justify;
+    font-size: 1.8em;
+    margin-top: 6vh;
+    gap: 1em;
+
+    span {
+      color: #c7c6c7;
+    }
   }
 
   img {
     height: 30vh;
     margin-right: 3vw;
+  }
+}
+
+#button-hero-div {
+  display: flex;
+  gap: 1vw;
+
+  button {
+    background-color: #626262;
+    border: none;
+    font-family: inherit;
+    font-size: 0.6em;
+    padding: 1em 2em;
+    color: white;
+    border-radius: 10px;
   }
 }
