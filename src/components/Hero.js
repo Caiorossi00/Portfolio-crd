@@ -15,7 +15,7 @@ const Hero = () => {
           <button>Lorem</button>
         </div>
       </div>
-      <img src={logo}></img>
+      <img src={logo} alt="Caiorossi.dev Logo"></img>
     </div>
   );
 };
