@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+#ui-left {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5vw;
+  padding-top: 8vh;
+  width: 65vw;
+  background-color: yellow;
+}
+
+#ui-right {
+  padding-right: 5vw;
+  padding-top: 8vh;
+  width: 35vw;
+  background-color: blue;
+}

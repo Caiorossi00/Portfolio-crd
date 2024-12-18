@@ -1,0 +1,11 @@
+#container-header {
+  display: flex;
+  background-color: red;
+  width: 100%;
+  justify-content: space-between;
+
+  div {
+    display: flex;
+    gap: 1em;
+  }
+}
