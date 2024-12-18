@@ -1,11 +1,49 @@
 #container-header {
   display: flex;
-  background-color: red;
   width: 100%;
   justify-content: space-between;
+  border: 1px solid #c7c6c7;
+  height: 8vh;
+  border-radius: 27px;
+  align-items: center;
+  background-color: transparent;
 
   div {
     display: flex;
-    gap: 1em;
+    gap: 2em;
+    margin-left: 2vw;
+    align-items: center;
+
+    h1 {
+      font-size: 1.3em;
+      font-weight: bold;
+    }
+
+    img {
+      height: 6vh;
+      border-radius: 50%;
+      border: 1px solid #c7c6c7;
+    }
+  }
+
+  button {
+    margin-right: 3vw;
+    border: none;
+    color: white;
+    background-color: #d6d6d6;
+    font-family: inherit;
+    padding: 0.6em;
+    border-radius: 4px;
+    padding-left: 2em;
+    padding-right: 2em;
+    cursor: pointer;
+  }
+
+  button:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
+      border 0.2s ease-in-out;
   }
 }

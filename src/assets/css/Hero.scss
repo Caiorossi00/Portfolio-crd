@@ -1,0 +1,22 @@
+#container-hero {
+  display: flex;
+  border: 1px solid #c7c6c7;
+  height: 30vh;
+  border-radius: 27px;
+  background-color: transparent;
+  justify-content: space-between;
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    justify-content: center;
+    margin-left: 2vw;
+    text-align: justify;
+  }
+
+  img {
+    height: 30vh;
+    margin-right: 3vw;
+  }
+}

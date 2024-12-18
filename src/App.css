@@ -3,6 +3,8 @@
   width: 100vw;
   justify-content: space-between;
   min-height: 100vh;
+  background-color: #fafafa;
+  font-family: "Montserrat";
 }
 
 #ui-left {
@@ -11,7 +13,7 @@
   padding-left: 5vw;
   padding-top: 8vh;
   width: 65vw;
-  background-color: yellow;
+  gap: 1.5em;
 }
 
 #ui-right {
