@@ -41,6 +41,7 @@ const Projects = () => {
       </div>
       <div className="project-details">
         <h2>{currentProject.name}</h2>
+        <p>{currentProject.description}</p>
         <img src={currentProject.picture} alt={currentProject.name} />
         <div className="project-buttons">
           <a href={currentProject.link}>Acesse o projeto</a>

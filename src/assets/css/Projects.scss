@@ -38,7 +38,7 @@
 
 .project-details {
   margin: 0 7%;
-  margin-top: 3vh;
+  margin-top: 2vh;
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -46,6 +46,12 @@
   h2 {
     font-size: 2em;
     font-weight: bold;
+  }
+
+  p {
+    margin-top: -1.3vh;
+    word-wrap: break-word;
+    width: 100%;
   }
 
   img {
