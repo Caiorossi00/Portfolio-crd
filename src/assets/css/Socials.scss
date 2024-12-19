@@ -1,0 +1,89 @@
+#container-socials {
+  border: 1px solid #c7c6c7;
+  width: 27vw;
+  height: 40vh;
+  max-height: 40vh;
+  border-radius: 27px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  justify-content: center;
+
+  h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-left: 2vw;
+    margin-top: -1.5vh;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    padding: 0.3em 1em;
+    gap: 1em;
+    width: 80%;
+    margin-left: 1.4vw;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      background-color: #f9f9f9;
+    }
+
+    i {
+      font-size: 2.5em;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #555;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+      font-size: 1em;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #555;
+      }
+    }
+  }
+
+  .instagram i {
+    color: #e4405f;
+
+    &:hover {
+      color: #c2324d;
+    }
+  }
+
+  .linkedin i {
+    color: #0077b5;
+
+    &:hover {
+      color: #005d93;
+    }
+  }
+
+  .github i {
+    color: #333;
+
+    &:hover {
+      color: #1a1a1a;
+    }
+  }
+
+  .whatsapp i {
+    color: #25d366;
+
+    &:hover {
+      color: #1b9c4d;
+    }
+  }
+}

@@ -5,8 +5,6 @@ import "../assets/css/Projects.scss";
 
 // TODO: Há problemas de sincronização entre os elementos que precisam ser resolvidos
 
-// TODO: Corrigir o erro de somente os dois primeiros itens da array projects estarem sendo renderizados
-
 const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [progress, setProgress] = useState(0);
@@ -17,7 +15,7 @@ const Projects = () => {
     }, 4000);
 
     const progressInterval = setInterval(() => {
-      setProgress((prevProgress) => (prevProgress + 2) % 100);
+      setProgress((prevProgress) => (prevProgress + 1) % 100);
     }, 40);
 
     return () => {

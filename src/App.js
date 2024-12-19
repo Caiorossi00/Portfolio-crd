@@ -5,8 +5,8 @@ import Education from "./components/Education";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
-import Skills from "./components/Skills";
 import "./App.css";
+import Socials from "./components/Socials";
 
 function App() {
   useEffect(() => {
@@ -24,7 +24,7 @@ function App() {
         <Hero />
         <div id="ui-left-bottom">
           <Education />
-          <Skills />
+          <Socials />
         </div>
       </div>
       <div id="ui-right">
