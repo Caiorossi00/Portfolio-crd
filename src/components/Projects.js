@@ -3,7 +3,9 @@ import projects from "../assets/data/projects";
 import logo from "../assets/images/1.png";
 import "../assets/css/Projects.scss";
 
-// Há problemas de sincronização entre os elementos que precisam ser resolvidos
+// TODO: Há problemas de sincronização entre os elementos que precisam ser resolvidos
+
+// TODO: Corrigir o erro de somente os dois primeiros itens da array projects estarem sendo renderizados
 
 const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -15,7 +17,7 @@ const Projects = () => {
     }, 4000);
 
     const progressInterval = setInterval(() => {
-      setProgress((prevProgress) => (prevProgress + 1) % 100);
+      setProgress((prevProgress) => (prevProgress + 2) % 100);
     }, 40);
 
     return () => {
@@ -44,8 +46,14 @@ const Projects = () => {
         <p>{currentProject.description}</p>
         <img src={currentProject.picture} alt={currentProject.name} />
         <div className="project-buttons">
-          <a href={currentProject.link}>Acesse o projeto</a>
-          <a href="#container-projects">Outro acesso</a>
+          <a
+            href={currentProject.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Acesse o projeto
+          </a>
+          <a href="#container-projects">Mais detalhes</a>
         </div>
       </div>
     </div>
