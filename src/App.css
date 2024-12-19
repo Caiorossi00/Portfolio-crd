@@ -16,6 +16,11 @@
   gap: 1.5em;
 }
 
+#ui-left-bottom {
+  display: flex;
+  gap: 1.4em;
+}
+
 #ui-right {
   padding-right: 5vw;
   padding-top: 8vh;
