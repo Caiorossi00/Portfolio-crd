@@ -36,6 +36,7 @@ const Education = () => {
   return (
     <div id="container-education">
       <div className="timeline">
+        <h1>Education</h1>
         {graduations.map((graduation, index) => (
           <div key={index} className="timeline-item">
             <div className="circle"></div>
