@@ -3,6 +3,8 @@ import projects from "../assets/data/projects";
 import logo from "../assets/images/1.png";
 import "../assets/css/Projects.scss";
 
+// Há problemas de sincronização entre os elementos que precisam ser resolvidos
+
 const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [progress, setProgress] = useState(0);
