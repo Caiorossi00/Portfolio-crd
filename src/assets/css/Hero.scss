@@ -23,7 +23,9 @@
 
   img {
     height: 30vh;
-    margin-right: 3vw;
+    margin-right: 4vw;
+    animation: rotate 18s linear infinite;
+    border-radius: 50%;
   }
 }
 
@@ -39,5 +41,14 @@
     padding: 1em 2em;
     color: white;
     border-radius: 10px;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }

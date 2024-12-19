@@ -4,7 +4,7 @@ import logo from "../assets/images/1.png";
 
 const Hero = () => {
   return (
-    <div id="container-hero">
+    <div id="container-hero" data-aos="fade-right">
       <div className="hero-text">
         <p>
           Hey, I'm <span>Caio Rossi</span> and I love playing around with shapes

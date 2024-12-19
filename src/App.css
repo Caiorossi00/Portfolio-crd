@@ -6,6 +6,7 @@
   background-color: #fafafa;
   font-family: "Montserrat";
   gap: 1.4em;
+  overflow-x: hidden;
 }
 
 #ui-left {

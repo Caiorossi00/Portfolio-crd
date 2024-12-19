@@ -4,7 +4,7 @@ import "../assets/css/Education.scss";
 
 const Education = () => {
   return (
-    <div id="container-education">
+    <div id="container-education" data-aos="fade-up">
       <div className="timeline">
         <h1>Education</h1>
         {graduations.map((graduation, index) => (

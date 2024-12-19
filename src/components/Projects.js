@@ -27,7 +27,7 @@ const Projects = () => {
   const currentProject = projects[currentIndex];
 
   return (
-    <div id="container-projects">
+    <div id="container-projects" data-aos="fade-left">
       <div className="progress-bar">
         <div
           style={{
