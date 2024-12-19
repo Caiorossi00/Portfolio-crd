@@ -2,6 +2,7 @@ import "./App.css";
 import Education from "./components/Education";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 function App() {
@@ -15,7 +16,9 @@ function App() {
           <Skills />
         </div>
       </div>
-      <div id="ui-right">Projects</div>
+      <div id="ui-right">
+        <Projects />
+      </div>
     </div>
   );
 }
