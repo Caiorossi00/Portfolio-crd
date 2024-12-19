@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import "./App.css";
 import Socials from "./components/Socials";
+import Feedback from "./components/Feedback";
 
 function App() {
   useEffect(() => {
@@ -19,16 +20,21 @@ function App() {
 
   return (
     <div className="App">
-      <div id="ui-left">
-        <Header />
-        <Hero />
-        <div id="ui-left-bottom">
-          <Education />
-          <Socials />
+      <div id="container-first-page">
+        <div id="ui-left">
+          <Header />
+          <Hero />
+          <div id="ui-left-bottom">
+            <Education />
+            <Socials />
+          </div>
+        </div>
+        <div id="ui-right">
+          <Projects />
         </div>
       </div>
-      <div id="ui-right">
-        <Projects />
+      <div id="container-second-page">
+        <Feedback />
       </div>
     </div>
   );

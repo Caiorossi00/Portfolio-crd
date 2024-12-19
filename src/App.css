@@ -1,12 +1,17 @@
 .App {
   display: flex;
-  width: 100vw;
+  width: 99vw;
   justify-content: space-between;
-  min-height: 100vh;
   background-color: #fafafa;
   font-family: "Montserrat";
-  gap: 1.4em;
+  flex-direction: column;
   overflow-x: hidden;
+  gap: 2vh;
+}
+
+#container-first-page {
+  display: flex;
+  gap: 1.4em;
 }
 
 #ui-left {
@@ -27,4 +32,9 @@
   padding-right: 5vw;
   padding-top: 8vh;
   width: 35vw;
+}
+
+#container-second-page {
+  width: 100vw;
+  margin-left: 5vw;
 }
